@@ -9,8 +9,7 @@ import logo from "../assets/coffee-logo.svg";
 const links = [
     {href: '/', label: 'Home'},
     {href: '/about', label: 'About'},
-    {href: '/contact', label: 'Contact'},
-    {href: '/create-issue', label: 'Create Issue'}
+    {href: '/contact', label: 'Contact'}
 ]
 
 const Header = () => {
@@ -25,7 +24,11 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-
+                        {links.map((link, index) => (
+                            <Nav.Link key={index} >
+                                <Link to={link.href} className={"text-success"} >{link.label}</Link>
+                            </Nav.Link>
+                        ))}
                     </Nav>
                 </Navbar.Collapse>
             </Container>
