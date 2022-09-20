@@ -14,7 +14,7 @@ const Footer = () => {
                 <div className="row">
 
                     <div className="col-12 col-md-4 col-lg-3">
-                        <img src="/coffee-logo.svg" alt="..."
+                        <img src="/coffee-logo-light.svg" alt="..."
                              className="footer-brand img-fluid mb-2" width={"40"} />
                             <p className="text-gray-700 mb-2">
                                 A better way to drink coffee.

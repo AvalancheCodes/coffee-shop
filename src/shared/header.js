@@ -2,9 +2,8 @@ import React from 'react';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
-import Offcanvas from 'react-bootstrap/Offcanvas';
 import {Link} from "react-router-dom";
-import logo from "../assets/coffee-logo.svg";
+import logo from "../assets/coffee-logo-light.svg";
 
 const links = [
     {href: '/', label: 'Home'},
