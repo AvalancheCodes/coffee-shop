@@ -10,7 +10,9 @@ const Spirit = () => {
                             Our customers are our biggest fans.
                         </h2>
                         <p className="fs-lg text-muted mb-7 mb-md-9">
-                            We are proud to have the best customers in the world. Here are some of the  kind words they have to say about <us className="">Coffix</us>
+                            We are proud to have the best customers in the world.
+                            Here are some of the  kind words they have to say about
+                            <us className="">Coffix</us>
                         </p>
                         <img src="/spirit/in-spirit-1.png"
                              className="img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0" alt="..."

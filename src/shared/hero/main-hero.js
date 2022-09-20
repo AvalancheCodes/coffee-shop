@@ -3,7 +3,7 @@ import './main-hero.scss';
 
 const MainHero = (props) => {
     return (
-        <section className="pt-4 pt-md-11 bg-theme-dark pt-5">
+        <section className="pt-md-11 bg-theme-dark pt-5">
             <div className="container pt-5">
                 <div className="row align-items-center">
                     <div className="col-12 col-md-5 col-lg-6 order-md-2">

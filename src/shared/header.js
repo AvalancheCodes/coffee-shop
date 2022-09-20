@@ -14,7 +14,7 @@ const links = [
 const Header = () => {
     return (
         <Navbar bg="light" expand="md">
-            <Container>
+            <Container >
                 <Navbar.Brand href="#home" >
                     <img src={logo} alt="logo"
                          width="50"
