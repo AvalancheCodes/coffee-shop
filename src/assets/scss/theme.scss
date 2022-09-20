@@ -9,7 +9,18 @@
 // Entire Bootstrap
 @import "bootstrap/scss/bootstrap";
 
-
 .bg-light{
   background-color: $primary !important;
+}
+
+.bg-theme-dark{
+  background-color: $dark-brown !important;
+}
+
+.bottom-decor{
+  background-image: url('../img/coffee-beans.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+  min-height: 10vh;
 }

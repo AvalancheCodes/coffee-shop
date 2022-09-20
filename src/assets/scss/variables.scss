@@ -8,6 +8,8 @@
 //
 
 // Color system
+// import google fonts Montserrat+Alternates
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,500,600,700&display=swap');
 
 $white: #FFFFFF !default;
 $gray-100: #F9FBFD !default;
@@ -30,6 +32,7 @@ $warning: #FAD776 !default;
 $danger: #DF4759 !default;
 $light: $gray-100 !default;
 $dark: $gray-900 !default;
+$dark-brown: #463E41 !default; // NEW
 
 /* beautify ignore:start */
 $theme-colors: (
@@ -180,7 +183,7 @@ $component-active-bg: $primary !default;
 //
 // Font, line-height, and color for body text, headings, and more.
 
-$font-family-base: 'HKGroteskPro', serif !default;
+$font-family-base: 'Montserrat Alternates', sans-serif !default;
 
 $font-size-base: 1.0625rem !default; // 17px
 $font-size-xs: 0.75rem !default; // 12px NEW
