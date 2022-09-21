@@ -5,7 +5,7 @@ const Spirit = () => {
         <section className={"pt-10 pt-md-12"}>
             <div className={"container"}>
                 <div className="row justify-content-center">
-                    <div className="col-12 col-md-10 col-lg-8 text-center">
+                    <div className="col-12 col-md-12 col-lg-8 text-center">
                         <h2>
                             Our customers are our biggest fans.
                         </h2>
@@ -15,9 +15,10 @@ const Spirit = () => {
                             <us className="">Coffix</us>
                         </p>
                         <img src="/spirit/in-spirit-1.png"
-                             className="img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0" alt="..."
+                             className="img-fluid  mw-lg-130 mb-6 mb-md-0" alt="..."
                              data-aos="fade-up" data-aos-delay="100"/>
                     </div>
+
                 </div>
             </div>
             <div className={"container pt-5"}>
@@ -30,7 +31,7 @@ const Spirit = () => {
                             Let us know if you want to have a spirit at your place. We will be happy to bring it to you. Our spirit is always ready to go.
                         </p>
                         <img src="/spirit/in-spirit-2.png"
-                             className="img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0" alt="..."
+                             className="img-fluid mw-lg-130 mb-6 mb-md-0" alt="..."
                              data-aos="fade-up" data-aos-delay="100"/>
                     </div>
                 </div>
